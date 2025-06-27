@@ -1,45 +1,39 @@
-# mcap-protocol
-Mainframe Context Aware Protocol (MCAP) for AI - Driven Legacy Modernization
 # 🧠 MCAP: Mainframe Context Aware Protocol
 
-MCAP is a proposed protocol for AI-driven legacy modernization, combining Anthropic’s Model Context Protocol (MCP) with Google’s Agent2Agent (A2A) for secure, context-rich COBOL-to-Java modernization.
+MCAP is a proposed protocol architecture for AI-driven legacy modernization. It integrates Anthropic’s Model Context Protocol (MCP) and Google’s Agent2Agent (A2A) to securely analyze COBOL systems using LLMs, while preserving business logic and enabling multi-agent collaboration with human oversight.
 
-![MCAP Architecture](./assets/mcap-architecture.pdf)
-
----
-
-## 🚀 What is MCAP?
-
-MCAP defines a multi-agent system and secure orchestration layer that enables LLMs to safely understand and convert legacy COBOL codebases using external context, audit trails, and SME validation.
-
-## 🧩 Architecture Overview
-
-- **Secure Legacy Interface**: Read-only access to COBOL, DB2, JCL
-- **Protocol Foundation**: Based on MCP + A2A standards
-- **Multi-Agent Collaboration**: Specialized agents for analysis, security, generation, and review
-- **Human-AI Review**: SME dashboards, visualizations, and audit workflows
-- **Modern Output**: Java apps, APIs, docs
+> 💡 MCAP = MCP (context-aware tool access) + A2A (agent orchestration) + mainframe security & domain extensions
 
 ---
 
-## 📁 Repository Structure
+## 📐 Architecture Overview
 
-| Folder        | Purpose                                       |
-|---------------|-----------------------------------------------|
-| `/docs`       | Protocol design, comparison, roadmap          |
-| `/assets`     | Images and diagrams                           |
-| `/examples`   | Sample COBOL, Java, AgentCard JSON            |
-| `/drafts`     | Work-in-progress writeups or raw notes        |
+- 🔒 **Secure Mainframe Interface**: Read-only access to sanitized COBOL, JCL, VSAM, and DB2
+- 🧠 **LLM Orchestration**: Multi-agent system for logic extraction, code generation, validation
+- 🔄 **Context Graph Engine**: Maintains semantic trace of legacy programs
+- 👨‍💼 **SME Validation Layer**: Human-in-the-loop workflows and audit trails
+- ☁️ **Modern Output**: Testable Java code, documentation, APIs
+
+![Architecture](./architecture/MCAP_Architecture_Diagram.jpg)
+
+---
+
+## 📂 Repository Structure
+
+| Folder         | Purpose                                         |
+|----------------|-------------------------------------------------|
+| `architecture` | Architecture diagram + written description      |
+| `docs`         | Full research paper and protocol documentation  |
+| `agents`       | Description of each AI agent in the MCAP model  |
+| `security`     | Compliance and data protection considerations   |
+| `prototype`    | COBOL samples and LLM-generated outputs         |
+| `roadmap`      | Milestones and community collaboration plan     |
 
 ---
 
 ## 🧪 Status
 
-This is a research hypothesis. Contributions are welcome to validate, expand, or prototype the MCAP architecture.
+This is a **research hypothesis**, not a production-ready tool.  
+We invite collaborators from mainframe, AI, enterprise architecture, and modernization domains to validate and improve this framework.
 
----
-
-## 📬 Let’s Collaborate
-
-- [LinkedIn Article](https://www.linkedin.com/in/saminathanbalasundaram/)
-- [Follow on Twitter](https://twitter.com/your_twitter_handle)
+📖 Full paper: [`MCAP_Research_Paper.md`](./docs/MCAP_Research_Paper.md)
