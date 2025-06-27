@@ -1,5 +1,5 @@
 # MCAP: A Research Hypothesis for AI-Driven Legacy Modernization
-
+# (By Sami Balasundaram)
 ## Abstract 🧠
 Legacy COBOL systems, critical to enterprise operations, face modernization challenges due to undocumented business logic, retiring developers, and high costs. This paper proposes the Mainframe Context Aware Protocol (MCAP), a hypothetical framework extending Anthropic’s Model Context Protocol (MCP) and Google’s Agent2Agent (A2A) protocol to enable secure, context-aware COBOL-to-Java modernization. MCAP orchestrates multi-agent workflows, preserves business logic, and ensures compliance. Through a conceptual architecture, design principles, and a claims processing use case, we explore MCAP’s potential. Research questions and a development roadmap are outlined, inviting collaboration to validate this approach.
 
