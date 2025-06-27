@@ -36,4 +36,5 @@ MCAP is a proposed protocol architecture for AI-driven legacy modernization. It 
 This is a **research hypothesis**, not a production-ready tool.  
 We invite collaborators from mainframe, AI, enterprise architecture, and modernization domains to validate and improve this framework.
 
-📖 Full paper: [`MCAP_Research_Paper.md`](./docs/MCAP_Research_Paper.md)
+📖 Full paper: [`index.md`](./docs/index.md)
+
